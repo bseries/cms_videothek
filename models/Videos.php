@@ -29,6 +29,10 @@ class Videos extends \base_core\models\Base {
 				'cover' => [
 					'type' => 'direct',
 					'to' => 'cover_media_id'
+				],
+				'video' => [
+					'type' => 'direct',
+					'to' => 'video_media_id'
 				]
 			]
 		],
