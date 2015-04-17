@@ -16,10 +16,16 @@ use lithium\g11n\Message;
 
 class Videos extends \base_core\models\Base {
 
+	use \base_core\models\SlugTrait;
+
 	public $belongsTo = [
 		'CoverMedia' => [
 			'to' => 'base_media\models\Media',
 			'key' => 'cover_media_id'
+		],
+		'VideoMedia' => [
+			'to' => 'base_media\models\Media',
+			'key' => 'video_media_id'
 		]
 	];
 
