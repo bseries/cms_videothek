@@ -61,7 +61,7 @@ $this->set([
 				<?= $this->form->field('year', [
 					'type' => 'text',
 					'label' => $t('Year'),
-					'value'
+					'value' => $item->year ?: date('Y')
 				]) ?>
 				<?= $this->form->field('directors', [
 					'type' => 'text',
