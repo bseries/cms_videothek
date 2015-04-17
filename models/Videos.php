@@ -59,11 +59,11 @@ class Videos extends \base_core\models\Base {
 		extract(Message::aliases());
 		$model = static::_object();
 
-		$model->validates['cover_media_id'] = [
+		$model->validates['cover_video_id'] = [
 			[
 				'notEmpty',
 				'on' => ['create', 'update'],
-				'message' => $t('You must select on medium.', ['scope' => 'cms_videothek'])
+				'message' => $t('You must select a medium.', ['scope' => 'cms_videothek'])
 			]
 		];
 	}
