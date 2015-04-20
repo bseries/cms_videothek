@@ -35,7 +35,7 @@ $this->set([
 				<tr data-id="<?= $item->id ?>">
 					<td class="flag"><?= ($item->is_published ? '✓' : '×') ?>
 					<td class="media">
-						<?php if (($media = $item->cover()) && ($version = $media->version('fix3admin'))): ?>
+						<?php if (($media = $item->video()) && ($version = $media->version('fix3admin'))): ?>
 							<?= $this->media->image($version, [
 								'data-media-id' => $media->id, 'alt' => 'preview'
 							]) ?>

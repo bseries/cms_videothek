@@ -19,10 +19,6 @@ class Videos extends \base_core\models\Base {
 	use \base_core\models\SlugTrait;
 
 	public $belongsTo = [
-		'CoverMedia' => [
-			'to' => 'base_media\models\Media',
-			'key' => 'cover_media_id'
-		],
 		'VideoMedia' => [
 			'to' => 'base_media\models\Media',
 			'key' => 'video_media_id'
@@ -65,7 +61,7 @@ class Videos extends \base_core\models\Base {
 		extract(Message::aliases());
 		$model = static::_object();
 
-		$model->validates['cover_video_id'] = [
+		$model->validates['video_media_id'] = [
 			[
 				'notEmpty',
 				'on' => ['create', 'update'],

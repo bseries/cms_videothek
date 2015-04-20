@@ -13,7 +13,6 @@
 use base_media\models\Media;
 
 Media::registerDependent('cms_videothek\models\Videos', [
-	'cover' => 'direct',
 	'video' => 'direct'
 ]);
 
