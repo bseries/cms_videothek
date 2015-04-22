@@ -27,6 +27,7 @@ $this->set([
 					<td class="flag"><?= $t('publ.?') ?>
 					<td class="media">
 					<td class="emphasize"><?= $t('Title') ?>
+					<td class="date published"><?= $t('Pubdate') ?>
 					<td class="date created"><?= $t('Created') ?>
 					<td class="actions">
 			</thead>
@@ -41,6 +42,10 @@ $this->set([
 							]) ?>
 						<?php endif ?>
 					<td class="emphasize"><?= $item->title ?: '–' ?>
+					<td class="date published">
+						<time datetime="<?= $this->date->format($item->published, 'w3c') ?>">
+							<?= $this->date->format($item->published, 'date') ?>
+						</time>
 					<td class="date created">
 						<time datetime="<?= $this->date->format($item->created, 'w3c') ?>">
 							<?= $this->date->format($item->created, 'date') ?>

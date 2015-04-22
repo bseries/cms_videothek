@@ -52,7 +52,7 @@ class Videos extends \base_core\models\Base {
 			'fields' => [
 				'title',
 				'director',
-				'year'
+				'published'
 			]
 		]
 	];
