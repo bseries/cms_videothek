@@ -12,14 +12,14 @@
 
 use lithium\g11n\Message;
 use base_core\extensions\cms\Widgets;
-use cms_videothek\models\Banners;
+use cms_videothek\models\Videos;
 
 extract(Message::aliases());
 
 Widgets::register('authoring',  function() use ($t) {
 	return [
 		'data' => [
-			$t('Banners', ['scope' => 'cms_videothek']) => Banners::find('count')
+			$t('Videos', ['scope' => 'cms_videothek']) => Videos::find('count')
 		]
 	];
 }, [
