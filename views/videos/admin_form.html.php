@@ -31,26 +31,22 @@ $this->set([
 					'class' => 'use-for-title'
 				]) ?>
 			</div>
-			<div class="grid-column-right">
-			</div>
+			<div class="grid-column-right"></div>
 		</div>
 
 		<div class="grid-row">
 			<div class="grid-column-left">
-				<div class="media-attachment use-media-attachment-direct">
-					<?= $this->form->label('VideoVideoMediaId', $t('Video')) ?>
-					<?= $this->form->hidden('video_media_id') ?>
-					<div class="selected"></div>
-					<?= $this->html->link($t('select'), '#', ['class' => 'button select']) ?>
-				</div>
+				<?= $this->media->field('video_media_id', [
+					'label' => $t('Video'),
+					'attachment' => 'direct',
+					'value' => $item->video()
+				]) ?>
 			</div>
-			<div class="grid-column-right">
-			</div>
+			<div class="grid-column-right"></div>
 		</div>
 
 		<div class="grid-row">
-			<div class="grid-column-left">
-			</div>
+			<div class="grid-column-left"></div>
 			<div class="grid-column-right">
 				<?= $this->form->field('published', [
 					'type' => 'date',
