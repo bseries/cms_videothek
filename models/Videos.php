@@ -24,7 +24,7 @@ class Videos extends \base_core\models\Base {
 	];
 
 	protected static $_actsAs = [
-		'base_media\extensions\data\behavior\Sluggable',
+		'base_core\extensions\data\behavior\Sluggable',
 		'base_media\extensions\data\behavior\Coupler' => [
 			'bindings' => [
 				'cover' => [
