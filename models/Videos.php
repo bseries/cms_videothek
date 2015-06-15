@@ -16,8 +16,6 @@ use lithium\g11n\Message;
 
 class Videos extends \base_core\models\Base {
 
-	use \base_core\models\SlugTrait;
-
 	public $belongsTo = [
 		'VideoMedia' => [
 			'to' => 'base_media\models\Media',
@@ -26,6 +24,7 @@ class Videos extends \base_core\models\Base {
 	];
 
 	protected static $_actsAs = [
+		'base_media\extensions\data\behavior\Sluggable',
 		'base_media\extensions\data\behavior\Coupler' => [
 			'bindings' => [
 				'cover' => [
