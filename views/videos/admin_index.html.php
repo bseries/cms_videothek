@@ -17,7 +17,7 @@ $this->set([
 <article>
 
 	<div class="top-actions">
-		<?= $this->html->link($t('new video'), ['action' => 'add', 'library' => 'cms_videothek'], ['class' => 'button add']) ?>
+		<?= $this->html->link($t('video'), ['action' => 'add', 'library' => 'cms_videothek'], ['class' => 'button add']) ?>
 	</div>
 
 	<?php if ($data->count()): ?>
