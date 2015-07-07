@@ -10,6 +10,8 @@
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  */
 
+namespace cms_videothek\config;
+
 use base_media\models\Media;
 
 Media::registerDependent('cms_videothek\models\Videos', [
