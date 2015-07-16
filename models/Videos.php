@@ -28,10 +28,6 @@ class Videos extends \base_core\models\Base {
 	protected static $_actsAs = [
 		'base_media\extensions\data\behavior\Coupler' => [
 			'bindings' => [
-				'cover' => [
-					'type' => 'direct',
-					'to' => 'cover_media_id'
-				],
 				'video' => [
 					'type' => 'direct',
 					'to' => 'video_media_id'
