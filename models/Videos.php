@@ -27,10 +27,6 @@ class Videos extends \base_core\models\Base {
 		'base_core\extensions\data\behavior\Sluggable',
 		'base_media\extensions\data\behavior\Coupler' => [
 			'bindings' => [
-				'cover' => [
-					'type' => 'direct',
-					'to' => 'cover_media_id'
-				],
 				'video' => [
 					'type' => 'direct',
 					'to' => 'video_media_id'
