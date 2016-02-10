@@ -22,7 +22,7 @@ use lithium\g11n\Message;
 
 extract(Message::aliases());
 
-Panes::register('authoring.videos', [
+Panes::register('cms.videos', [
 	'title' => $t('Videos', ['scope' => 'cms_videothek']),
 	'url' => ['controller' => 'videos', 'action' => 'index', 'library' => 'cms_videothek', 'admin' => true],
 	'weight' => 50
