@@ -59,7 +59,7 @@ class Videos extends \base_core\models\Base {
 
 	public static function init() {
 		extract(Message::aliases());
-		$model = static::_object();
+		$model = static::object();
 
 		$model->validates['video_media_id'] = [
 			[
