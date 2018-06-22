@@ -12,4 +12,4 @@ CREATE TABLE `videos` (
   KEY `order` (`order`),
   KEY `is_published` (`is_published`),
   KEY `published` (`published`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB;
