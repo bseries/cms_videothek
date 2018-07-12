@@ -91,7 +91,7 @@ msgstr ""
 
 #: views/videos/admin_index.html.php:24
 msgid ""
-"Banners can be used as static banners or - when grouped - as a slideshow "
+"Banners can be used as static banners or – when grouped – as a slideshow "
 "anywhere on your site. The name of the group gives you a hint about the "
 "location of the banner."
 msgstr ""
