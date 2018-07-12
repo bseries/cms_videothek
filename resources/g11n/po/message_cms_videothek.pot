@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Atelier Disko
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the cms_videothek package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cms_videothek 1.0\n"
 "Report-Msgid-Bugs-To: info@atelierdisko.de\n"
-"POT-Creation-Date: 2015-04-13 17:18+0200\n"
+"POT-Creation-Date: 2018-07-12 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,23 +17,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: config/panes.php:19
+#: config/panes.php:18 config/widgets.php:21
 msgid "Videos"
 msgstr ""
 
-#: config/widgets.php:22
-msgid "Banners"
-msgstr ""
-
-#: models/Videos.php:62
-msgid "You must select on medium."
+#: models/Videos.php:60
+msgid "You must select a medium."
 msgstr ""
 
 #: views/videos/admin_form.html.php:13
 msgid "untitled"
 msgstr ""
 
-#: views/videos/admin_form.html.php:14
+#: views/videos/admin_form.html.php:14 views/videos/admin_index.html.php:20
 msgid "video"
 msgstr ""
 
@@ -45,83 +41,62 @@ msgstr ""
 msgid "unpublished"
 msgstr ""
 
-#: views/videos/admin_form.html.php:30 views/videos/admin_index.html.php:34
+#: views/videos/admin_form.html.php:30 views/videos/admin_index.html.php:29
 msgid "Title"
 msgstr ""
 
-#: views/videos/admin_form.html.php:36
-msgid "Medium"
+#: views/videos/admin_form.html.php:40
+msgid "Video"
 msgstr ""
 
-#: views/videos/admin_form.html.php:39
-msgid "select"
-msgstr ""
-
-#: views/videos/admin_form.html.php:50
-msgid "Year"
-msgstr ""
-
-#: views/videos/admin_form.html.php:55
-msgid "Director/s"
+#: views/videos/admin_form.html.php:53
+msgid "Publish date"
 msgstr ""
 
 #: views/videos/admin_form.html.php:58
+msgid "Director/s"
+msgstr ""
+
+#: views/videos/admin_form.html.php:61
 msgid "Separate multiple formats with commas."
 msgstr ""
 
-#: views/videos/admin_form.html.php:63 views/videos/admin_index.html.php:57
+#: views/videos/admin_form.html.php:68
+msgid "delete"
+msgstr ""
+
+#: views/videos/admin_form.html.php:75 views/videos/admin_index.html.php:54
 msgid "publish"
 msgstr ""
 
-#: views/videos/admin_form.html.php:63 views/videos/admin_index.html.php:57
+#: views/videos/admin_form.html.php:75 views/videos/admin_index.html.php:54
 msgid "unpublish"
 msgstr ""
 
-#: views/videos/admin_form.html.php:65
+#: views/videos/admin_form.html.php:77
 msgid "save"
 msgstr ""
 
 #: views/videos/admin_index.html.php:12
-msgid "banners"
+msgid "videos"
 msgstr ""
 
-#: views/videos/admin_index.html.php:20
-msgid "new banner"
-msgstr ""
-
-#: views/videos/admin_index.html.php:24
-msgid ""
-"Banners can be used as static banners or - when grouped - as a slideshow "
-"anywhere on your site. The name of the group gives you a hint about the "
-"location of the banner."
-msgstr ""
-
-#: views/videos/admin_index.html.php:25
-msgid ""
-"You can set the order of the banners manually by dragging and dropping the "
-"rows in the table below."
-msgstr ""
-
-#: views/videos/admin_index.html.php:32
+#: views/videos/admin_index.html.php:27
 msgid "publ.?"
 msgstr ""
 
-#: views/videos/admin_index.html.php:35
-msgid "Group"
+#: views/videos/admin_index.html.php:30
+msgid "Pubdate"
 msgstr ""
 
-#: views/videos/admin_index.html.php:36
+#: views/videos/admin_index.html.php:31
 msgid "Created"
 msgstr ""
 
-#: views/videos/admin_index.html.php:56
-msgid "delete"
-msgstr ""
-
-#: views/videos/admin_index.html.php:58
+#: views/videos/admin_index.html.php:55
 msgid "open"
 msgstr ""
 
-#: views/videos/admin_index.html.php:63
+#: views/videos/admin_index.html.php:60
 msgid "No items available, yet."
 msgstr ""
