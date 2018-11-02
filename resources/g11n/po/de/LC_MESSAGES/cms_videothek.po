@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cms_videothek 1.0\n"
 "Report-Msgid-Bugs-To: info@atelierdisko.de\n"
-"POT-Creation-Date: 2015-04-13 17:18+0200\n"
-"PO-Revision-Date: 2015-04-13 17:18+0200\n"
+"POT-Creation-Date: 2018-07-12 12:51+0200\n"
+"PO-Revision-Date: 2018-07-12 12:55+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -16,112 +16,88 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.12\n"
 
-#: config/panes.php:19
+#: config/panes.php:18 config/widgets.php:21
 msgid "Videos"
-msgstr ""
+msgstr "Videos"
 
-#: config/widgets.php:22
-msgid "Banners"
-msgstr ""
-
-#: models/Videos.php:62
-msgid "You must select on medium."
-msgstr ""
+#: models/Videos.php:60
+msgid "You must select a medium."
+msgstr "Sie müssen ein Medium auswählen."
 
 #: views/videos/admin_form.html.php:13
 msgid "untitled"
-msgstr ""
+msgstr "ohne Titel"
 
-#: views/videos/admin_form.html.php:14
+#: views/videos/admin_form.html.php:14 views/videos/admin_index.html.php:20
 msgid "video"
-msgstr ""
+msgstr "Video"
 
 #: views/videos/admin_form.html.php:17
 msgid "published"
-msgstr ""
+msgstr "publiziert"
 
 #: views/videos/admin_form.html.php:17
 msgid "unpublished"
-msgstr ""
+msgstr "unpubliziert"
 
-#: views/videos/admin_form.html.php:30 views/videos/admin_index.html.php:34
+#: views/videos/admin_form.html.php:30 views/videos/admin_index.html.php:29
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
-#: views/videos/admin_form.html.php:36
-msgid "Medium"
-msgstr ""
+#: views/videos/admin_form.html.php:40
+msgid "Video"
+msgstr "Video"
 
-#: views/videos/admin_form.html.php:39
-msgid "select"
-msgstr ""
-
-#: views/videos/admin_form.html.php:50
-msgid "Year"
-msgstr ""
-
-#: views/videos/admin_form.html.php:55
-msgid "Director/s"
-msgstr ""
+#: views/videos/admin_form.html.php:53
+msgid "Publish date"
+msgstr "Veröffentlichungsdatum"
 
 #: views/videos/admin_form.html.php:58
+msgid "Director/s"
+msgstr "Regisseur/e"
+
+#: views/videos/admin_form.html.php:61
 msgid "Separate multiple formats with commas."
-msgstr ""
+msgstr "Trennen Sie mehrere Formate durch Kommas."
 
-#: views/videos/admin_form.html.php:63 views/videos/admin_index.html.php:57
+#: views/videos/admin_form.html.php:68
+msgid "delete"
+msgstr "löschen"
+
+#: views/videos/admin_form.html.php:75 views/videos/admin_index.html.php:54
 msgid "publish"
-msgstr ""
+msgstr "publizieren"
 
-#: views/videos/admin_form.html.php:63 views/videos/admin_index.html.php:57
+#: views/videos/admin_form.html.php:75 views/videos/admin_index.html.php:54
 msgid "unpublish"
-msgstr ""
+msgstr "depublizieren"
 
-#: views/videos/admin_form.html.php:65
+#: views/videos/admin_form.html.php:77
 msgid "save"
-msgstr ""
+msgstr "speichern"
 
 #: views/videos/admin_index.html.php:12
-msgid "banners"
-msgstr ""
+msgid "videos"
+msgstr "Videos"
 
-#: views/videos/admin_index.html.php:20
-msgid "new banner"
-msgstr ""
-
-#: views/videos/admin_index.html.php:24
-msgid ""
-"Banners can be used as static banners or - when grouped - as a slideshow "
-"anywhere on your site. The name of the group gives you a hint about the "
-"location of the banner."
-msgstr ""
-
-#: views/videos/admin_index.html.php:25
-msgid ""
-"You can set the order of the banners manually by dragging and dropping the "
-"rows in the table below."
-msgstr ""
-
-#: views/videos/admin_index.html.php:32
+#: views/videos/admin_index.html.php:27
 msgid "publ.?"
-msgstr ""
+msgstr "publ.?"
 
-#: views/videos/admin_index.html.php:35
-msgid "Group"
-msgstr ""
+#: views/videos/admin_index.html.php:30
+msgid "Pubdate"
+msgstr "Veröffentlichungsdatum"
 
-#: views/videos/admin_index.html.php:36
+#: views/videos/admin_index.html.php:31
 msgid "Created"
-msgstr ""
+msgstr "Erstellt"
 
-#: views/videos/admin_index.html.php:56
-msgid "delete"
-msgstr ""
-
-#: views/videos/admin_index.html.php:58
+#: views/videos/admin_index.html.php:55
 msgid "open"
-msgstr ""
+msgstr "öffnen"
 
-#: views/videos/admin_index.html.php:63
+#: views/videos/admin_index.html.php:60
 msgid "No items available, yet."
-msgstr ""
+msgstr "Es sind noch keine Einträge verfügbar."
